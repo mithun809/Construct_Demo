@@ -1,0 +1,944 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    float: left;
+    min-height: 70px;
+    border-top: 2px solid orangered;
+    border-bottom: 1px solid orangered;
+    background-color: bisque;
+}
+
+.header-wraper {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+}
+
+.logo a {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.logo a img {
+    width: 120px;
+    height: 70px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.menubar {
+    width: 750px;
+    float: right;
+}
+
+.menubar ul li {
+    display: inline;
+    float: left;
+}
+
+.menubar ul li a {
+    padding: 6px 20px;
+    margin: 8px 0px;
+    float: left;
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menubar ul li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: orangered;
+}
+
+.active {
+    color: rgb(255, 255, 255) !important;
+    background-color: orange;
+}
+
+.banner {
+    width: 100%;
+    float: left;
+}
+
+.banner img {
+    width: 100%;
+    height: 500px;
+}
+
+.side {
+    position: fixed;
+    top: 200px;
+    right: 0px;
+}
+
+.side a {
+    padding: 0px;
+    margin: 0px;
+}
+
+.side a img {
+    width: 30px;
+    height: 30px;
+    box-shadow: red -1px 1px 2px 0px;
+}
+
+.side1 {
+    position: fixed;
+    top: 200px;
+    right: 0px;
+}
+
+.side1 a {
+    padding: 0px;
+    margin: 0px;
+}
+
+.side1 a img {
+    width: 30px;
+    height: 30px;
+    box-shadow: red -1px 1px 2px 0px;
+}
+
+.side2 {
+    position: fixed;
+    top: 250px;
+    right: 0px;
+}
+
+.side2 a {
+    padding: 0px;
+    margin: 0px;
+}
+
+.side2 a img {
+    width: 30px;
+    height: 30px;
+    box-shadow: red -1px 1px 2px 0px;
+}
+
+.side3 {
+    position: fixed;
+    top: 300px;
+    right: 0px;
+}
+
+.side3 a {
+    padding: 0px;
+    margin: 0px;
+}
+
+.side3 a img {
+    width: 30px;
+    height: 30px;
+    box-shadow: red -1px 1px 2px 0px;
+}
+
+.side4 {
+    position: fixed;
+    top: 350px;
+    right: 0px;
+}
+
+.side4 a {
+    padding: 0px;
+    margin: 0px;
+}
+
+.side4 a img {
+    width: 30px;
+    height: 30px;
+    box-shadow: red -1px 1px 2px 0px;
+}
+
+.welcome {
+    width: 100%;
+    float: left;
+    min-height: 250px;
+    height: auto;
+    border-bottom: 1px solid red;
+    margin: 2px 0px;
+}
+
+.welcome-wraper {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.welcome-wraper h1 {
+    color: orangered;
+    padding: 10px 0px 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.welcome-wraper h1 span {
+    color: rgb(74, 9, 166);
+    box-shadow: greenyellow 0px 6px 0px 0px;
+}
+
+.welcome-wraper h2 {
+    color: orangered;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 34px;
+}
+
+.welcome-wraper h2 span {
+    color: green;
+    text-decoration: underline;
+}
+
+.welcome-wraper p {
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+}
+
+.button {
+    width: 120px;
+    margin: 0px auto;
+}
+
+.button a {
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 10px 13px;
+    margin: 14px 0px;
+    text-decoration: underline;
+    border-radius: 10px 0px;
+    box-shadow: greenyellow 2px 3px 3px 0px;
+}
+
+
+/************Construction Part Open*********/
+
+.contstruction {
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    float: left;
+    background-color: rgb(214, 209, 209);
+}
+
+.contstruction-wraper {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.contstruction h3 {
+    padding: 10px 0px;
+    margin: 0px;
+    text-align: center;
+    color: orangered;
+    font-size: 35px;
+    text-shadow: rgb(0, 0, 0) 10px 15px;
+}
+
+   
+.contstruction-boxx {
+    
+float: left;
+    
+margin: 20px 19px;
+    
+padding: 0px 0px 7px 0px;
+    
+border: 1px solid black;
+    
+width: 350px;
+    
+height: 520px;
+    
+border-radius: 10px;
+}
+
+.contstruction-boxx img
+
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.contstruction-boxx h5
+
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+.contstruction-boxx p
+{
+    text-align: center;
+}
+
+/************Construction Part close*********/
+
+
+
+.box1 p span {
+    background-color: aquamarine;
+    font-family: fantasy;
+    color: orangered;
+    font-size: 18px;
+    text-align: center;
+}
+
+.box2 p span {
+    font-style: italic;
+    padding: 1px 2px;
+    font-size: 20px;
+    color: red;
+    text-decoration: underline blueviolet;
+}
+
+.box img {
+    width: 100%;
+    float: left;
+    height: 150px;
+    padding: 0px 0px 10px;
+    margin: 0px;
+    box-shadow: black 5px 5px 10px 0px;
+}
+
+.box h5 {
+    padding: 5px 0px;
+    margin: 0px;
+    text-align: center;
+    color: orangered;
+    font-size: 20px;
+}
+
+.box p {
+    padding: 5px 0px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.client-logo {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background-color: whitesmoke;
+    float: left;
+}
+
+.client-logo-wraper {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.client-logo-wraper h5 {
+    padding: 15px 0px;
+    margin: 0px;
+    text-align: center;
+    color: orangered;
+    font-size: 40px;
+    text-shadow: rgb(188, 178, 149) 15px 10px;
+}
+
+.logo23 {
+    width: 282px;
+    float: left;
+    min-height: 190px;
+    height: auto;
+    margin: 10px 5px;
+}
+
+.logo23 img {
+    width: 100%;
+    height: 190px;
+    float: left;
+    box-shadow: black 5px 5px 10px 0px;
+    border-radius: 55px 0px;
+}
+
+.subscribe {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background-color: orange;
+    float: left;
+    margin: 0px;
+    padding: 35px 0px;
+}
+
+.subscribe-wraper {
+    width: 1170px;
+    margin: auto;
+}
+
+.subscribe-wraper h4 {
+    padding: 15px 0px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: rgb(188, 178, 149) 15px 10px;
+}
+
+.subscribe-wraper p {
+    padding: 15px 0px 10px;
+    margin: 0px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+.line {
+    width: 100px;
+    margin: 0px auto;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.white {
+    width: 500px;
+    margin: 0px auto;
+}
+
+.white input {
+    width: 400px;
+    padding: 7px 5px;
+    margin: 15px 0px;
+    float: left;
+}
+
+.errow {
+    width: 81px;
+    float: right;
+    margin: 16px 0px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.errow a {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.errow a img {
+    width: 36px;
+    height: 22px;
+    float: left;
+    padding: 5px 22px;
+    margin: 0px;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    height: 450px;
+    background: url("../img/background-black.jpeg");
+}
+
+.footer-wraper {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.nav {
+    width: 407px;
+    margin: 0px auto;
+}
+
+.nav ul {
+    padding: 0px;
+    float: left;
+    margin: 0px;
+}
+
+.nav ul li {
+    display: inline;
+    float: left;
+}
+
+.nav ul li a {
+    color: rgb(255, 255, 255);
+    padding: 14px;
+    margin: 0px;
+    text-decoration: none;
+    float: left;
+}
+
+.footer-line {
+    width: 100%;
+    float: left;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-one {
+    width: 380px;
+    float: left;
+    min-height: 250px;
+    height: auto;
+    margin: 5px;
+}
+
+.footer-one h5 {
+    color: aquamarine;
+    font-size: 28px;
+    padding: 15px 4px;
+    margin: 0px;
+}
+
+.lo {
+    float: right !important;
+}
+
+.tel {
+    width: 100%;
+    float: left;
+    margin: 8px 5px;
+}
+
+.tel i {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 8px 2px;
+    margin: 5px 0px;
+    float: left;
+}
+
+.tel p {
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 0px;
+    margin: 2px 0px 0px 10px;
+    width: 332px;
+}
+
+.tel p a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.footer-one iframe {
+    width: 95%;
+    float: left;
+    margin: 5px 10px;
+    height: 240px;
+}
+
+.social {
+    width: 242px;
+    float: right;
+}
+
+.social ul {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+
+.social ul li {
+    display: inline;
+    float: left;
+}
+
+.social ul li a {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.social ul li a img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding: 9px 15px;
+    margin: 0px;
+}
+
+.last {
+    width: 100%;
+    float: left;
+}
+
+.last p {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.last p span {
+    color: orangered;
+}
+
+.about-banner {
+    width: 100%;
+    float: left;
+}
+
+.about-banner img {
+    width: 100%;
+    float: left;
+    height: 380px;
+}
+
+.about-welcome {
+    width: 100%;
+    float: left;
+    min-height: 300px;
+    height: auto;
+    border-bottom: 1px solid red;
+}
+
+.about-welcome-wraper {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.about-welcome-wraper h1 {
+    padding: 10px 0px;
+    margin: 0px;
+    float: left;
+    color: black;
+    font-size: 28px;
+}
+
+.about-line {
+    width: 100%;
+    float: left;
+    height: 1px;
+    background-color: rgb(59, 59, 59);
+}
+
+.about-box {
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    height: auto;
+    float: left;
+    min-height: 50px;
+}
+
+.about-box p {
+    color: rgb(0, 0, 0);
+    float: left;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.about-box p span {
+    color: orangered;
+    background-color: greenyellow;
+    padding: 1px 2px;
+}
+
+.about-welcome-wraper h2 {
+    padding: 10px 0px;
+    margin: 0px;
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.about-welcome-wraper p {
+    color: black;
+    float: left;
+}
+
+.services-banner {
+    width: 100%;
+    float: left;
+}
+
+.services-banner img {
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+
+.services-welcome {
+    width: 100%;
+    float: left;
+    min-height: 300px;
+    height: auto;
+}
+
+.services-welcome-wraper {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.services-welcome-wraper h1 {
+    font-family: arial;
+}
+
+.services-discount h3 span {
+    text-decoration: underline;
+}
+
+.services-discount p span {
+    text-decoration: underline;
+}
+
+.service-left {
+    width: 100%;
+    float: left;
+    min-height: 350px;
+    height: auto;
+}
+
+.service-left-welcome {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.ser-left {
+    width: 580px;
+    float: left;
+    min-height: 340px;
+    height: auto;
+    margin: 5px 4px;
+}
+
+.ser-left h3 {
+    color: mediumseagreen;
+    font-family: cursive;
+}
+
+.ser-right {
+    width: 580px;
+    float: left;
+    min-height: 620px;
+    height: auto;
+    margin: 5px 1px;
+}
+
+.ser-right img {
+    width: 100%;
+    float: right;
+    margin: 10px auto;
+    padding: 90px 0px;
+    height: 330px;
+}
+
+.service-onee {
+    width: 100%;
+    float: left;
+    font-family: cursive;
+}
+
+.service-onee-wraper {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.service-one {
+    width: 272px;
+    float: left;
+    min-height: 450px;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin: 9px;
+}
+
+.service-one img {
+    width: 90%;
+    border-radius: 18px;
+    margin: 3px auto;
+    padding: 0px 14px;
+}
+
+.service-one h2 {
+    color: maroon;
+    padding: 15px 4px;
+    margin: 0px;
+    text-align: center;
+}
+
+.service-one p {
+    text-align: center;
+    text-decoration: none;
+}
+
+.gallery-banner {
+    width: 100%;
+    float: left;
+}
+
+.gallery-banner img {
+    width: 100%;
+    height: 500px;
+    float: left;
+    /*border: 1px solid red;*/
+    
+}
+
+.gallery {
+    width: 100%;
+    float: left;
+}
+
+.gallery-wraper {
+    float: left;
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.gallery-wraper h1 {
+    text-align: center;
+    font-family: cursive;
+    margin: 20px 0px;
+    padding: 10px 10px 0px 0px;
+    font-size: 45px;
+}
+
+.gallery1 {
+    float: left;
+    width: 350px;
+    height: 380px;
+    margin: 20px;
+    padding: 20px 0px;
+    border-radius: 12px 0px;
+    background-color: maroon;
+}
+
+.gallery1 h3 {
+    text-align: center;
+    font-size: 25px;
+    color: azure;
+}
+
+.gallery1 img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.contacts {
+    width: 100%;
+    float: left;
+    background-color: chocolate;
+    border-radius: 40px 40px;
+}
+
+.contacts-wraper {
+    width: 1170px;
+    float: left;
+    margin: 0px auto;
+}
+
+.contacts-wraper h1 {
+    text-align: center;
+}
+
+.contacts-left {
+    width: 450px;
+    height: 400px;
+    float: left;
+    margin: 0px 67px;
+    padding: 0px;
+}
+
+.contacts-left h4 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.contacts-left iframe {
+    width: 100%;
+    height: 290px;
+}
+
+.left {
+    width: 100%;
+    float: left;
+    margin: 8px 5px;
+}
+
+.left i {
+    color: black;
+    font-size: 30px;
+    padding: 8px 2px;
+    margin: 2px 24px;
+    float: left;
+}
+
+.enquiry {
+    width: 100%;
+    float: left;
+}
+
+.enquiry-wraper {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.enquiry-wraper h3
+{
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+    text-shadow: 0px 8px yellow;
+    text-decoration: underline;
+}
+.enquiry-input {
+    width: 100%;
+    height: 355px;
+    /*border: 1px solid red;*/
+    margin: 1px 0px;
+    padding: 10px 0px;
+    float: left;
+    background-color: antiquewhite;
+    border-radius:  20px 20px;
+}
+
+.enquiry-input-in input 
+{
+    width: 421px;
+    height: 35px;
+    margin: 21px 80px;
+    padding: 8px 0px;
+    float: left;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.enquiry-input-submit textarea {
+    width: 429px;
+    height: 109px;
+    float: left;
+    margin: 0px 77px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.enquiry-input-submit input
+{
+    width: 221px;
+    height: 35px;
+    float: left;
+    margin: 73px 79px;
+    padding:  0px 0px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+
+}
